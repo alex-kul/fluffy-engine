@@ -10,7 +10,7 @@
     <form method='POST' enctype="multipart/form-data" action='<?=$url?>.view.<?=$view_id?>'>
       <input type="hidden" name="MAX_FILE_SIZE" value="1024 * 1024 * 2" />
       <input name="imgfile" type="file" />
-      <textarea maxlength="1024" rows="3" cols="60" name="for_i_title" placeholder="Название изображения"></textarea>
+      <textarea maxlength="128" rows="1" cols="15" name="for_i_title" placeholder="Название изображения"></textarea>
       <textarea maxlength="1024" rows="3" cols="60" name="for_i_desc" placeholder="Краткое описание изображения"></textarea>
      <br /><input type="submit" value="Загрузить" /><br /><br />
     </form>
